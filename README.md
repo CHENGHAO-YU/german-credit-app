@@ -1,7 +1,7 @@
 # 💳 German Credit Risk Analysis System
 
-[![CI/CD Pipeline](https://github.com/yourusername/german-credit-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/german-credit-risk/actions/workflows/ci.yml)
-[![Docker](https://img.shields.io/docker/pulls/yourusername/german-credit-app.svg)](https://hub.docker.com/r/yourusername/german-credit-app)
+[![CI/CD Pipeline](https://github.com/CHENGHAO-YU/german-credit-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/CHENGHAO-YU/german-credit-risk/actions/workflows/ci.yml)
+[![Docker](https://img.shields.io/docker/pulls/CHENGHAO-YU/german-credit-app.svg)](https://hub.docker.com/r/CHENGHAO-YU/german-credit-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive credit risk analysis system built with Streamlit and LightGBM for the German Credit dataset.
@@ -20,7 +20,7 @@ A comprehensive credit risk analysis system built with Streamlit and LightGBM fo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/german-credit-risk.git
+git clone https://github.com/CHENGHAO-YU/german-credit-risk.git
 cd german-credit-risk
 ```
 
@@ -36,8 +36,8 @@ streamlit run app/main.py
 ### Docker
 Pull and run the Docker image:
 ```bash
-docker pull yourusername/german-credit-app:latest
-docker run -p 8501:8501 yourusername/german-credit-app:latest
+docker pull CHENGHAO-YU/german-credit-app:latest
+docker run -p 8501:8501 CHENGHAO-YU/german-credit-app:latest
 ```
 
 ### Testing
