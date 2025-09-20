@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build: .
+    container_name: german-credit-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    environment:
+      - STREAMLIT_THEME_BASE=light
+      - STREAMLIT_THEME_PRIMARY_COLOR=#1e3d59
+    restart: unless-stopped
